@@ -10,7 +10,7 @@
 
 ARP 요청·응답 완료되면 ARP table에 각 노드의 ARP 정보를 저장한다.
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 **ARP 요청**: 특정 IP주소에 대해 MAC주소를 요구, MAC 주소를 알지 못하기 때문에 브로드 캐스트로 전송한다.
 

@@ -5,6 +5,7 @@
 ## Docs
 
 * [Network](docs/network/README.md)
+  * [DHCP 동작원리](docs/network/dhcp.md)
   * [ARP, RARP](docs/network/page-1.md)
   * [GET & POST 요청](docs/network/get-and-post.md)
   * [SNMP](docs/network/snmp.md)

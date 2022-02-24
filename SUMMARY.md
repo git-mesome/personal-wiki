@@ -22,6 +22,7 @@
   * [Spanning Tree](algorithm/algorithm-thoery/spanning-tree.md)
   * [BFS](algorithm/algorithm-thoery/bfs/README.md)
     * [Knight's Move](algorithm/algorithm-thoery/bfs/knights-move.md)
+    * [Maze Exploration](algorithm/algorithm-thoery/bfs/maze-exploration.md)
   * [Backtracking](algorithm/algorithm-thoery/backtracking.md)
   * [Dynamic Programming](algorithm/algorithm-thoery/dynamic-programming.md)
 

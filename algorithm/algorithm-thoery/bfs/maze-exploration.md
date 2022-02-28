@@ -47,6 +47,10 @@ while (!queue.isEmpty()) { // 주변에 1이 없을 때까지
       }
 ```
 
+* 입력 값과 이동횟
+
+![](<../../../.gitbook/assets/image (2).png>)
+
 ### 전체 코드
 
 ```java

@@ -47,7 +47,7 @@ while (!queue.isEmpty()) { // 주변에 1이 없을 때까지
       }
 ```
 
-* 입력 값과 이동 횟
+* 입력 값과 이동 횟수&#x20;
 
 ![](<../../../.gitbook/assets/image (2).png>)
 

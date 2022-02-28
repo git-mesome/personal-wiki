@@ -6,46 +6,46 @@
 
 미로 , **최단 경로** 사용 → BFS를 사용하자
 
-1.  인접 노드가 1이면 Queue에 추가하자.
+1. 인접 노드가 1이면 Queue에 추가하자.
 
-    1-1 . 인접 노드 구하기 → 상하좌우를 알아야 한다.
+1-1 . 인접 노드 구하기 → 상하좌우를 알아야 한다.
 
-    *   code
+![](<../../../.gitbook/assets/image (3).png>)
 
-        ```java
-        int [] dx = {1, 0, -1, 0};
-        int [] dy = {0, 1, 0, -1};
-        ```
-
-
-
-1.  이동할 수 있는 곳이면 해당 좌표에 +1 반복해주어 도착지점까지 이동한 횟수를 알아내자.
-
-    * code
+*   code
 
     ```java
-    while (!queue.isEmpty()) { // 주변에 1이 없을 때까지
-            PointXY check = queue.poll();
+    int [] dx = {1, 0, -1, 0};
+    int [] dy = {0, 1, 0, -1};
+    ```
 
-            if (check.x == width - 1 && check.y == height - 1) {
-              break;
-            }
-            //상, 하, 좌, 우 탐색 반복문
-            for (int i = 0; i < dx.length; i++) {
-              int nx = check.x + dx[i];
-              int ny = check.y + dy[i];
+2\. 이동할 수 있는 곳이면 해당 좌표에 +1 반복해주어 도착지점까지 이동한 횟수를 알아내자.
 
-              //0보다 크고 행,열보다 작을때 진입
-              if (nx >= 0 && ny >= 0 && nx < width && ny < height) {
+* code
 
-                if (maze[nx][ny] == 1) {
-                  maze[nx][ny] = maze[check.x][check.y] + 1;
-                  queue.add(new PointXY(nx, ny));
-                }
-              }
+```java
+while (!queue.isEmpty()) { // 주변에 1이 없을 때까지
+        PointXY check = queue.poll();
+
+        if (check.x == width - 1 && check.y == height - 1) {
+          break;
+        }
+        //상, 하, 좌, 우 탐색 반복문
+        for (int i = 0; i < dx.length; i++) {
+          int nx = check.x + dx[i];
+          int ny = check.y + dy[i];
+
+          //0보다 크고 행,열보다 작을때 진입
+          if (nx >= 0 && ny >= 0 && nx < width && ny < height) {
+
+            if (maze[nx][ny] == 1) {
+              maze[nx][ny] = maze[check.x][check.y] + 1;
+              queue.add(new PointXY(nx, ny));
             }
           }
-    ```
+        }
+      }
+```
 
 ### 전체 코드
 

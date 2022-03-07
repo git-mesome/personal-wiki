@@ -10,7 +10,7 @@
 
 1-1 . 인접 노드 구하기 → 상하좌우를 알아야 한다.
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 *   code
 
@@ -49,7 +49,7 @@ while (!queue.isEmpty()) { // 주변에 1이 없을 때까지
 
 * 입력 값과 이동 횟수&#x20;
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 1일 때 진입 가능하므로 현재 위치의 maze 배열 값이 1이면 기준 좌표 값에서 1을 더하여 현재 배열 값을 더한다. 방문한 경로는 2이상이 되므로 조건문 if (maze\[nx]\[ny] == 1) 을 만족시키지 않기 때문에 재방문하지 않는다. 즉, 0과 2이상의 배열값은 <mark style="color:red;">갈 수 없는 경로</mark>가 되는 것이다.
 

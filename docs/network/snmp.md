@@ -28,7 +28,7 @@ MRTG란 Multiple Router Traffic Grapher)의 약자로 SNMP 기반의 장비 모�
 
 ### **SNMP 동작방식**
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 **1.** 관리 시스템(Manager)은 162/udp 포트를 이용
 

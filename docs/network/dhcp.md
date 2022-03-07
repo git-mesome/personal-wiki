@@ -19,7 +19,7 @@
 3. DHCP Request
 4. DHCP Ack
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 **1-1) DHCP Discover**
 
@@ -41,7 +41,7 @@ DHCP 서버는 Request메시지 내에 Server Identifier에 기록된 IP 주소�
 
 DHCP Ack 메시지에는 IP Lease Time 파라미터가 포함되어 있으며 , PC는 명시된 임대기간 동안만 해당 IP 주소를 사용 임대기간 이상 해당 IP 주소를 사용하기 위해서는 DHCP 서버에게 IP 주소 임대기간 연장을 요청해야 함
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 **2-1) DHCP Request**
 

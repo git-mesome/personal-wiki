@@ -10,11 +10,11 @@
 
 ARP 요청·응답 완료되면 ARP table에 각 노드의 ARP 정보를 저장한다.
 
-![](<../../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 **ARP 요청**: 특정 IP주소에 대해 MAC주소를 요구, MAC 주소를 알지 못하기 때문에 브로드 캐스트로 전송한다.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (2).png>)
 
 계속해서 ARP Request를 하게 되면 브로드캐스팅을 하게 된다. 브로드캐스팅을 지속적으로 하게 된다면 네트워크 트래픽이 증가해 CPU의 부담을 줄 수 있기에 최근에 얻은 IP 주소와 MAC 주소 Mapping 값을 보관하는 캐시 정보를 이용한다.
 
@@ -30,7 +30,7 @@ ARP 요청·응답 완료되면 ARP table에 각 노드의 ARP 정보를 저장�
 
 **RARP 응답**: 요청자의 IP 주소를 담은 RARP 응답을 유니캐스트로 전송한다.
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
 RARP는 MAC 주소를 이용해 IP 주소를 제공한다. 하드 디스크가 없는 호스트에서는 송신 호스트 IP 주소를 보관할 방법이 없으므로 LAN 카드에 내장된 MAC 주소를 매개변수로 사용하여 RARP 기능을 수행하여 자신의 IP 주소를 얻어야 한다.MAC 주소와 IP 주소의 매핑 값을 보관하고 있는 호스트로부터 IP 주소를 얻어야만 한다.
 

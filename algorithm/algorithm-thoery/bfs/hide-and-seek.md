@@ -72,7 +72,7 @@ public class HideAndSeek1697 {
     N = sc.nextInt();
     K = sc.nextInt();
 
-	 	//동생과 수빈의 위치가 같을 경우
+    //동생과 수빈의 위치가 같을 경우
     if (N == K) {
       System.out.println(0);
     } else {
@@ -84,7 +84,7 @@ public class HideAndSeek1697 {
 
     Queue<Integer> queue = new LinkedList<>();
     queue.add(num);
-		//처음 위치값 1
+    //처음 위치값 1
     point[num] = 1;
 
     while (!queue.isEmpty()) {
@@ -94,7 +94,7 @@ public class HideAndSeek1697 {
       int x2 = next - 1;
       int x3 = next * 2;
 
-			//좌표안에 있고 안 간 경로라면
+      //좌표안에 있고 안 간 경로라면
       if (x1 <= 100000 && point[x1] == 0) {
 				//현재 위치값 + 1
         point[x1] = point[next] + 1;
@@ -112,7 +112,7 @@ public class HideAndSeek1697 {
       }
 
     }
-		//처음 위치가 1이므로 1을 빼준다.
+    //처음 위치가 1이므로 1을 빼준다.
     System.out.println(point[K] - 1);
   }
 

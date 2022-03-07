@@ -1,5 +1,7 @@
 # Hide And Seek
 
+{% embed url="https://www.acmicpc.net/problem/1697" %}
+
 ### 문제 접근
 
 수빈이가 동생을 찾을 수 있는 가장 빠른 시간을 구하는 문제 → 최단 거리 → **BFS**

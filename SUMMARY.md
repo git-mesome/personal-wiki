@@ -12,6 +12,7 @@
   * [GET & POST 요청](docs/network/get-and-post.md)
   * [SNMP](docs/network/snmp.md)
   * [HTTP 상태 코드](docs/network/http.md)
+  * [DNS Record](docs/network/dns-record.md)
 * [API](docs/api.md)
 
 ## Language

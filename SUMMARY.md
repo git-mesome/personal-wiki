@@ -5,6 +5,8 @@
 ## Docs
 
 * [Spring](docs/spring/README.md)
+  * [Springboot](docs/spring/springboot/README.md)
+    * [빌드 자동화 툴 : Gradle / Library](docs/spring/springboot/gradle-library.md)
   * [Erros와 ValidationUtils 클래스의 주요 메서드](docs/spring/erros-validationutils.md)
 * [Network](docs/network/README.md)
   * [DHCP 동작원리](docs/network/dhcp.md)

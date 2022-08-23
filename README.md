@@ -15,3 +15,5 @@
 {% embed url="https://minseo-kim.gitbook.io/personal-wiki/" %}
 
 <mark style="color:orange;background-color:orange;">Medium</mark>
+
+{% embed url="https://medium.com/@Minseo-dev" %}

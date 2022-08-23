@@ -6,6 +6,12 @@
 
 
 
-Main Page
+<mark style="background-color:purple;">Github</mark>
+
+{% embed url="https://github.com/Minseo-dev" %}
+
+<mark style="background-color:red;">Gitbook</mark>
 
 {% embed url="https://minseo-kim.gitbook.io/personal-wiki/" %}
+
+<mark style="color:orange;background-color:orange;">Medium</mark>

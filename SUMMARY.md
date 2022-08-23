@@ -20,8 +20,8 @@
 ## Language
 
 * [Java](language/java.md)
-* [SQL](language/sql/README.md)
-  * [Page 1](language/sql/page-1.md)
+* [SQL](language/sql.md)
+  * [TIL(22.08.23)](language/sql/til-22.08.23.md)
 
 ## Algorithm
 

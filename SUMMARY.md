@@ -20,7 +20,8 @@
 ## Language
 
 * [Java](language/java.md)
-* [SQL](language/sql.md)
+* [SQL](language/sql/README.md)
+  * [Page 1](language/sql/page-1.md)
 
 ## Algorithm
 

@@ -21,7 +21,7 @@ DNS(Domain Name System) : 인터넷의 모든 사이트에서 IP 주소, 도메�
 * 하나의 도메인에 여러 개의 IP 주소 등록 가능
 *   ex.
 
-    [naver.com](http://naver.com)의 A레코드 조회하였을 때 4개의 IP주소 매핑됨
+    [naver.com](http://naver.com/)의 A레코드 조회하였을 때 4개의 IP주소 매핑됨
 
     Non-authoritative answer: Address: 223.130.195.95 Address: 223.130.200.107 Address: 223.130.200.104 Address: 223.130.195.200
 
@@ -43,7 +43,7 @@ DNS(Domain Name System) : 인터넷의 모든 사이트에서 IP 주소, 도메�
 
 *   ex.
 
-    [goldsony.tistory.com](http://goldsony.tistory.com) 도메인이 있을 때 도메인의 CNAME이 [gsony.tistory.com](http://gsony.tistory.com)이면
+    [goldsony.tistory.com](http://goldsony.tistory.com/) 도메인이 있을 때 도메인의 CNAME이 [gsony.tistory.com](http://gsony.tistory.com/)이면
 
     gsonry.tistory.com 입력 시 접근 가능!
 
@@ -56,7 +56,7 @@ DNS(Domain Name System) : 인터넷의 모든 사이트에서 IP 주소, 도메�
 * 해당 도메인과 연동되어있는 메일서버 확인시 사용
 *   ex.
 
-    [naver.com](http://naver.com) 경우 당연히 연동되어있는 메일서버가 있을 것이고
+    [naver.com](http://naver.com/) 경우 당연히 연동되어있는 메일서버가 있을 것이고
 
     이 도메인에 대한 MX 레코드는 10:mx1.naver.com, 10:mx2.naver.com, 10:mx3.naver.com
 
@@ -68,7 +68,7 @@ DNS(Domain Name System) : 인터넷의 모든 사이트에서 IP 주소, 도메�
 
 *   ex.
 
-    [naver.com](http://naver.com)의 NS레코드 : e-ns.naver.com, ns1.naver.com, ns2.naver.com
+    [naver.com](http://naver.com/)의 NS레코드 : e-ns.naver.com, ns1.naver.com, ns2.naver.com
 
 
 
@@ -76,7 +76,7 @@ DNS(Domain Name System) : 인터넷의 모든 사이트에서 IP 주소, 도메�
 
 : IP주소에 대한 도메인 주소를 확인할 수 있는 레코드
 
-* [naver.com](http://naver.com)의 경우 등록이 안되어있는 것으로 보인다.
+* [naver.com](http://naver.com/)의 경우 등록이 안되어있는 것으로 보인다.
 
 
 
@@ -123,4 +123,4 @@ DNS(Domain Name System) : 인터넷의 모든 사이트에서 IP 주소, 도메�
 
 * 터미널 명령보다 간단하게 dns record를 확인할 수 있다.
 
-[![](https://www.whatsmydns.net/images/logo-og.png)](https://www.whatsmydns.net)
+[![](https://www.whatsmydns.net/images/logo-og.png)](https://www.whatsmydns.net/)

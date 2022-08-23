@@ -98,7 +98,11 @@ update post title = 'test2' where post_id = 1;
 
 
 
+PostgreSQL에는 VARCHAR2가 없다. VARCHAR가 같은 기능
 
+{% embed url="https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-char-varchar-text/" %}
+
+###
 
 ## 웹 어플리케이션의 채팅 알림
 

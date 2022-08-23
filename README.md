@@ -2,8 +2,10 @@
 
 ## Welcome !
 
-{% hint style="info" %}
-**Good to know:** A design system is a product, and similar best practices to product docs apply when documenting a design system. Offering succinct ways to get started is a great way to introduce the  concepts of your design system, while empowering folks to use it for their needs.
-{% endhint %}
+개인 공부를 기록해놓은 공간입니다.
 
-##
+
+
+Main Page
+
+{% embed url="https://minseo-kim.gitbook.io/personal-wiki/" %}
